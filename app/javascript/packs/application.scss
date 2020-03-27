@@ -3,9 +3,9 @@
 }
 
 @import "bulma";
-@import './stylesheets/mixins';
-@import './stylesheets/navigation';
-@import './stylesheets/map';
-@import './stylesheets/search';
-@import './stylesheets/layout';
-@import './stylesheets/typography';
+@import '../bundles/App/stylesheets/mixins';
+@import '../bundles/App/stylesheets/navigation';
+@import '../bundles/App/stylesheets/map';
+@import '../bundles/App/stylesheets/search';
+@import '../bundles/App/stylesheets/layout';
+@import '../bundles/App/stylesheets/typography';
