@@ -1,2 +1,7 @@
 @import "bulma";
-@import 'app/assets/stylesheets/application.scss';
+@import './stylesheets/mixins';
+@import './stylesheets/navigation';
+@import './stylesheets/map';
+@import './stylesheets/search';
+@import './stylesheets/layout';
+@import './stylesheets/typography';
