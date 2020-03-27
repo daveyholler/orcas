@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  encounter_date: 2020-03-24 16:56:06
+  encounter: 
+  start_time: MyString
+  end_time: MyString
+  vessel: MyString
+  staff: MyString
+  observers: MyString
+  pods: MyString
+  start_lat: MyString
+  start_long: MyString
+  end_lat: MyString
+  end_long: MyString
+  summary: MyText
+  ids_encountered: 
+  location_description: MyString
+
+two:
+  encounter_date: 2020-03-24 16:56:06
+  encounter: 
+  start_time: MyString
+  end_time: MyString
+  vessel: MyString
+  staff: MyString
+  observers: MyString
+  pods: MyString
+  start_lat: MyString
+  start_long: MyString
+  end_lat: MyString
+  end_long: MyString
+  summary: MyText
+  ids_encountered: 
+  location_description: MyString

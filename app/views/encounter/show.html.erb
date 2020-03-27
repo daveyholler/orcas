@@ -1,0 +1,12 @@
+<%= render partial: 'partials/side_navigation', locals: {items: Encounter.all} %>
+<%#= react_component("EncounterDetail", props: {encounter: @encounter}) %>
+
+<div class="pageWrapper">
+  <%= react_component("Map", props: {
+    lat: @encounter.start_lat,
+    lng: @encounter.start_long,
+    height: "400px"
+  }) %>
+  <h1 class="title is-2">Encounter No. <%= @encounter.encounter_number %> on the <%= @encounter.vessel %></h1>
+  <%= sanitize(@encounter.summary) %>
+</div>

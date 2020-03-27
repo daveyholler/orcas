@@ -1,0 +1,34 @@
+{
+  "engineName": "orca",
+  "hostIdentifier": "host-yykhq8",
+  "endpointBase": "https://a56981eed45445c09c47c2ff1b141141.app-search.us-west-2.aws.found.io",
+  "searchKey": "search-c8qzs19ra47vo9qajop47imo",
+  "resultFields": [
+    "summary",
+    "encounter_number",
+    "start_long",
+    "end_lat",
+    "ids_encountered",
+    "encounter_date",
+    "end_time",
+    "created_at",
+    "staff",
+    "location_description",
+    "start_time",
+    "updated_at",
+    "end_long",
+    "vessel",
+    "start_lat",
+    "pods",
+    "observers",
+    "id"
+  ],
+  "sortFields": [
+
+  ],
+  "facets": [
+
+  ],
+  "titleField": "vessel",
+  "urlField": "url"
+}

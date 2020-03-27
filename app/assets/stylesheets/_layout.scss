@@ -1,0 +1,31 @@
+.pageWrapper {
+  width: calc(100% - 20rem);
+  margin-left: 20rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+input.input {
+  border-radius: 1px !important;
+  font-weight: 700;
+  box-shadow: none;
+  transition: all .25s ease-in-out;
+  border: none;
+  font-size: .75rem;
+  height: 2.5rem;
+
+  &:focus {
+    box-shadow: inset 0 0 0 4px gold;
+  }
+}
+
+.button.is-primary {
+  border-radius: 1px;
+  background: gold;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .75rem;
+  color: black;
+  height: 2.5rem;
+}

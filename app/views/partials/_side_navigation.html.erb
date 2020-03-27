@@ -1,0 +1,12 @@
+<div class="navigation__sideNav">
+  <% items.each do |item| %>
+    <%= active_link_to encounter_path(item) do %>
+      <div class="navigation__sideNavItem">
+        <h4 class="navigation__sideNavItemSubtitle">Encounter No. <%= item.encounter_number %> on the <%= item.vessel %></h4>
+        <div class="navigation__sideNavItemBody">
+          <%= truncate(strip_tags(item.summary), length: 80) %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

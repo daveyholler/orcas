@@ -8,7 +8,7 @@ default: &default
 development:
   <<: *default
   database: orca_development
-  username: orca
+  username: daveyholler
   password:
 
 # Warning: The database defined as "test" will be erased and
@@ -17,7 +17,7 @@ development:
 test:
   <<: *default
   database: orca_testdb
-  username: orca
+  username: daveyholler
   password:
 
 production:
