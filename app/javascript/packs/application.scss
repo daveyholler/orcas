@@ -1,3 +1,7 @@
+@mixin brutalShadow($color) {
+  box-shadow: inset 0 0 0 4px $color, 6px 6px 0 0 white, 10px 10px 0 0 $color;
+}
+
 @import "bulma";
 @import './stylesheets/mixins';
 @import './stylesheets/navigation';
